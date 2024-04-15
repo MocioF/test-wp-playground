@@ -1,0 +1,22 @@
+{
+    "name": "mociof/test-wp-playground",
+    "description": "Test code to report issues to wordpress-playground (https://github.com/WordPress/wordpress-playground)",
+    "type": "wordpress-plugin",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Giuseppe Foti",
+            "email": "foti.giuseppe@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require-dev": {
+        "wp-coding-standards/wpcs": "^3.1",
+        "phpcompatibility/phpcompatibility-wp": "^2.1"
+    },
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    }
+}
