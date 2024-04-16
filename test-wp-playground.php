@@ -40,6 +40,7 @@ class Test_Wp_Playground {
 		$output    = '';
 		$test_urls = array(
 			'/wp-admin/load-scripts.php?c=0&load%5Bchunk_0%5D=jquery-core,jquery-migrate,utils,wp-polyfill-inert,regenerator-runtime,wp-polyfill,wp-hooks&ver=6.5.2',
+			'/wp-admin/load-scripts.php?c=0&load[chunk_0]=jquery-core,jquery-migrate,utils,wp-polyfill-inert,regenerator-runtime,wp-polyfill,wp-hooks&ver=6.5.2',
 			'/wp-admin/js/theme-plugin-editor.js?ver=6.5.2',
 			'/wp-includes/js/customize-base.js?ver=6.5.2',
 		);
